@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: rgb(45, 105, 65);
+   display: grid;
+   height: 100vh;
+   width: 100vw;
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+   
+        }
+       .md{
+   background-color: rgb(16, 13, 209);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr ;
+   justify-content: center;
+  
+
+    
+   
+       }
+       .cc1{
+           background-color: blueviolet;
+           
+
+       }
+       .cc2{
+        background-color: antiquewhite;
+       
+       }
+       .cc3{
+        background-color: rgb(186, 116, 24);
+       
+       }
+       .cc4{
+        background-color: rgb(47, 210, 131);
+       
+       }
+       .cc5{
+        background-color: rgb(105, 84, 124);
+       
+       }
+       .cc6{
+        background-color: rgb(203, 173, 134);
+       
+       }
+
+       .md1{
+        background-color: rgb(104, 177, 196);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr ;
+   
+ 
+   
+       }
+       .c1{
+           background-color: blueviolet;
+           grid-column: 1/3;
+       }
+       .c2{
+        background-color: antiquewhite;
+       grid-row: 1/3;
+       grid-column:3/4 ;
+       
+       }
+       .c3{
+        background-color: rgb(186, 116, 24);
+        
+       
+       }
+       .c4{
+        background-color: rgb(47, 210, 131);
+        
+       
+       }
+       /* .c5{
+        background-color: rgb(105, 84, 124);
+       
+       } */
+       /* .c6{
+        background-color: rgb(234, 137, 10);
+       
+       } */
+
+
+       .md2{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr ;
+
+
+
+       }
+       .d1{
+           background-color: blueviolet;
+           grid-column: 1/4;
+       }
+       .d2{
+        background-color: antiquewhite;
+       
+       
+       }
+       .d3{
+        background-color: rgb(186, 116, 24);
+        grid-column: 2/4;
+       
+       }
+       .d4{
+        background-color: rgb(47, 210, 131);
+        grid-column: 1/4;
+       
+       
+       }
+
+       .md3{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+
+       }
+       .e1{
+           background-color: blueviolet;
+           grid-column: 1/3;
+       }
+       .e2{
+        background-color: antiquewhite;
+       
+       grid-column: 3/5;
+       }
+       .e3{
+        background-color: rgb(186, 116, 24);
+        
+       
+       }
+       .e4{
+        background-color: rgb(47, 210, 131);
+        grid-column: 2/5;
+       
+       }
+       .e5{
+        background-color: rgb(185, 55, 185);
+        grid-column: 1/5;
+       
+       
+       }
+
+
+
+
+
+
+       .md4{
+        background-color: rgb(238, 181, 171);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: repeat(6,1fr);
+
+       }
+       .f1{
+           background-color: blueviolet;
+        
+       }
+       .f2{
+        background-color: antiquewhite;
+       
+       
+       }
+       .f3{
+        background-color: rgb(186, 116, 24);
+        
+       
+       }
+       .f4{
+        background-color: rgb(47, 210, 131);
+        
+       
+       }
+       .f5{
+        background-color: rgb(185, 55, 185);
+        
+       
+       
+       }
+       .f6{
+           background-color: rgb(236, 208, 21);
+    
+       }
+       .f7{
+        background-color: rgb(210, 158, 90);
+       
+       
+       }
+       .f8{
+        background-color: rgb(78, 219, 200);
+        
+       
+       }
+       .f9{
+        background-color: rgb(127, 167, 148);
+        
+       
+       }
+       .f10{
+        background-color: rgb(88, 18, 88);
+        
+       
+       
+       }
+       .f11{
+           background-color: rgb(118, 86, 145);
+        
+       }
+       .f12{
+        background-color: rgb(82, 68, 192);
+       
+       
+       }
+       .f13{
+        background-color: rgb(67, 151, 82);
+        
+       
+       }
+       .f14{
+        background-color: rgb(170, 206, 69);
+        
+       
+       }
+       .f15{
+        background-color: rgb(241, 13, 241);
+        
+       
+       
+       }
+       .f16{
+           background-color: rgb(163, 121, 201);
+        
+       }
+       .f17{
+        background-color: rgb(50, 34, 13);
+       
+    
+       }
+       .f18{
+        background-color: rgb(181, 153, 117);
+        
+       
+       }
+       
+
+
+
+
+
+
+
+
+       .md5{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: repeat(4,1fr) ;
+   grid-template-rows: repeat(5,1fr);
+       }
+
+       
+       .g1{
+           background-color: blueviolet;
+           grid-column: 1/3;
+       }
+       .g2{
+        background-color: antiquewhite;
+       
+       
+       }
+       .g3{
+        background-color: rgb(186, 116, 24);
+        
+       
+       }
+       .g4{
+        background-color: rgb(47, 210, 131);
+        
+       
+       }
+       .g5{
+        background-color: rgb(185, 55, 185);
+        
+       
+       
+       }
+       .g6{
+           background-color: rgb(236, 208, 21);
+    
+       }
+       .g7{
+        background-color: rgb(210, 158, 90);
+        grid-column:1/3;
+       grid-row:3/5;
+      
+       
+    
+      
+      
+       
+       }
+      
+       .g9{
+        background-color: rgb(127, 167, 148);
+        
+       
+       }
+       .g10{
+        background-color: rgb(88, 18, 88);
+        
+       
+       
+       }
+       .g11{
+           background-color: rgb(118, 86, 145);
+        
+       }
+       .g12{
+        background-color: rgb(82, 68, 192);
+       grid-column: 1/4;
+       
+       }
+       .g13{
+        background-color: rgb(78, 219, 200);
+        
+       
+       } 
+
+    
+       .md6{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr 1fr ;
+   grid-template-rows: repeat(3,1fr);
+
+       }
+       .h1{
+           background-color: blueviolet;
+           grid-column: 1/3;
+       }
+       .h2{
+        background-color: antiquewhite;
+       grid-column: 3/5;
+       
+       }
+       .h3{
+        background-color: rgb(186, 116, 24);
+        grid-column: 1/3;
+        grid-row: 2/4;
+       
+       }
+
+       .md66{
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat  1fr 1fr;
+        background-color: aliceblue;
+        gap: 6px;
+        border: 2px solid white;
+        border-width: 6px;
+        width: 190%;
+        height: 190%;
+        
+        
+
+        
+        
+       }
+       .h4{
+        background-color: rgb(47, 210, 131);
+        grid-column:1/3 ;
+        
+       
+       }
+       .h5{
+        background-color: rgb(185, 55, 185);
+        
+       
+        
+       }
+       .h6{
+           background-color: rgb(236, 208, 21);
+           
+       }
+
+
+
+
+
+
+
+       .md7{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: repeat(5,1fr);
+   grid-template-rows: repeat(3,1fr);
+
+       }
+
+       .i1{
+           background-color: blueviolet;
+        
+       }
+       .i2{
+        background-color: antiquewhite;
+       
+       
+       }
+       .i3{
+        background-color: rgb(186, 116, 24);
+        
+       
+       }
+       .i4{
+        background-color: rgb(47, 210, 131);
+        
+       
+       }
+       .i5{
+        background-color: rgb(185, 55, 185);
+        
+       
+       
+       }
+       .i6{
+           background-color: rgb(236, 208, 21);
+    
+       }
+       .i7{
+        background-color: rgb(210, 158, 90);
+       
+       
+       }
+       .i8{
+        background-color: rgb(78, 219, 200);
+        grid-column: 3/6;
+       
+       }
+       .i9{
+        background-color: rgb(127, 167, 148);
+        grid-column: 1/6;
+       
+       }
+
+
+
+
+
+
+       .md8{
+        background-color: rgb(30, 79, 43);
+   display: grid;
+   height: 30vh;
+   width: 30vw;
+   gap: 6px;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-rows: repeat(3,1fr);
+
+       }
+       .j1{
+           background-color: blueviolet;
+        grid-column: 1/4;
+       }
+       .j2{
+        background-color: antiquewhite;
+       grid-row: 2/4;
+       
+       }
+       .j3{
+        background-color: rgb(186, 116, 24);
+        grid-column: 2/4;
+       
+       }
+       .j4{
+        background-color: rgb(47, 210, 131);
+        
+       
+       }
+       .j5{
+        background-color: rgb(185, 55, 185);
+        
+       
+       
+       }
+       
+      
+       
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="md">
+   
+    <div class="cc1"></div>
+        <div class="cc2"></div>
+    <div class="cc3"></div>
+    <div class="cc4"></div>
+    <div class="cc5"></div>
+    <div class="cc6"></div>
+    
+</div>
+     <div class="md1">
+        <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <!-- <div class="c5"></div>
+    <div class="c6"></div> -->
+</div>
+<div class="md2">
+    <div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<!-- <div class="cc5"></div>
+<div class="cc6"></div> -->
+</div>
+<div class="md3">
+    <div class="e1"></div>
+<div class="e2"></div>
+<div class="e3"></div>
+<div class="e4"></div>
+<div class="e5"></div>
+
+</div>
+<div class="md4">
+    <div class="f1"></div>
+<div class="f2"></div>
+<div class="f3"></div>
+<div class="f4"></div>
+<div class="f5"></div>
+<div class="f6"></div>
+<div class="f7"></div>
+<div class="f8"></div>
+<div class="f9"></div>
+<div class="f10"></div>
+<div class="f11"></div>
+<div class="f12"></div>
+<div class="f13"></div>
+<div class="f14"></div>
+<div class="f15"></div>
+<div class="f16"></div>
+<div class="f17"></div>
+<div class="f18"></div>
+</div>
+<div class="md5">
+    <div class="g1"></div>
+<div class="g2"></div>
+<div class="g3"></div>
+<div class="g4"></div>
+<div class="g5"></div>
+<div class="g6"></div>
+<div class="g7"></div>
+<div class="g8"></div>
+<div class="g9"></div>
+<div class="g10"></div>
+<div class="g11"></div>
+<div class="g12"></div>
+<div class="g13"></div>
+
+</div>
+<div class="md6">
+    <div class="h1"></div>
+<div class="h2"></div>
+<div class="h3"></div>
+<div class="md66">
+    <div class="h4"></div>
+<div class="h5"></div>
+<div class="h6"></div>
+</div>
+</div>
+<div class="md7">
+    <div class="i1"></div>
+<div class="i2"></div>
+<div class="i3"></div>
+<div class="i4"></div>
+<div class="i5"></div>
+<div class="i6"></div>
+<div class="i7"></div>
+<div class="i8"></div>
+<div class="i9"></div>
+
+
+
+</div>
+<div class="md8">
+    <div class="j1"></div>
+<div class="j2"></div>
+<div class="j3"></div>
+<div class="j4"></div>
+<div class="j5"></div>
+
+</div>
+
+</div>
+</body>
+</html>
